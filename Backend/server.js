@@ -80,3 +80,4 @@ app.post('/api/chat', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`DostAI Free Gemini Backend is running on port ${PORT}`);
 });
+export default app;
