@@ -1,5 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
-
+// --- BRANDING CONFIGURATION ---
+const BOT_NAME = "DOST AI"; 
+const BOT_SLOGAN = "Your Socratic Guide to Smarter Studying.";
+// ------------------------------
 export default function App() {
   // Sidebar & Layout State
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
